@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>lentex</h1>
+        </div>
+        <div class="one">
+        </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>ROMEO AND JULIET</h2>
+            <h5>william shakespeare</h5>
+            <P>Romeo and Juliet is a tragedy written by William Shakespeare early in his career about the romance between two Italian youths from feuding families. It was among Shakespeare's most popular plays during his lifetime and, along with Hamlet, is one of his most frequently performed. Today, the title characters are regarded as archetypal young lovers</p>
+            <button onclick="deletebook(event)">delete</button> 
+            </div>
+            
+            <div class="book-container">
+                <h2>WINGS OF FIRE</h2>
+                <h5>D.R. A.P.J ABDUL KALAM</h5>
+                <P>In the autobiography, Kalam examines his early life, effort, hardship, fortitude, luck and chance that eventually led him to lead Indian space research, nuclear and missile programs. Kalam started his career, after graduating from Aerospace engineering at Madras Institute of Technology, at Hindustan Aeronautics Limited and was assigned to build a hovercraft prototype.</p>
+                <button onclick="deletebook(event)">delete</button> 
+                </div>
+
+                <div class="book-container">
+                <h2>WINGS OF FIRE</h2>
+                <h5>D.R. A.P.J ABDUL KALAM</h5>
+                <P>In the autobiography, Kalam examines his early life, effort, hardship, fortitude, luck and chance that eventually led him to lead Indian space research, nuclear and missile programs. Kalam started his career, after graduating from Aerospace engineering at Madras Institute of Technology, at Hindustan Aeronautics Limited and was assigned to build a hovercraft prototype.</p>
+                <button onclick="deletebook(event)">delete</button> 
+                </div>
+      
+    <dev class="popup-overlay"></dev>
+    <dev class="popup-box">
+        <h2>ADD BOOK</h2>
+        <form>
+            <input type="text" placeholder="book title" id="book-title-input">
+            <input type="text" placeholder="book author" id="book-author-input">
+            <textarea placeholder="short description"  id="book-description-input"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+        </dev>
+    <button class="add-button" id="add-popup-button">+</button>
+    <script src="js.js"></script>
+    
+</body>
+</html>
